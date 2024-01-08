@@ -12,17 +12,48 @@ body {
 h1 {
   font-size: 5rem;
 }
+footer {
+  text-align: right;
+  color: midnightblue;
+}
 span {
   color: midnightblue;
 }
 .tile-image {
-  width: 300px;
   height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
 }
 .card {
-  display: flex;
+  width: 45%;
 }
-footer {
-  text-align: right;
-  color: midnightblue;
+@media (max-width: 680px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .logo {
+    width: 100px;
+  }
+  .card {
+    display: block;
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .card img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .left {
+    clear: both;
+  }
+  .right {
+    clear: both;
+  }
 }
