@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#hero {
+  background-color: #e4f9f5;
+}
+.container-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color: #66bfbf;
+}
+.container-hero > h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+.container-hero > p {
+  font-size: x-large;
+  font-weight: bold;
+}
+#me {
+  background-color: white;
+}
+.container-me {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color: #66bfbf;
+}
+.profile {
+  margin: 5rem 0 3rem 0;
+  border-radius: 50%;
+}
+.container-me > h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.container-me > p {
+  text-align: center;
+  font-size: x-large;
+  width: 40%;
+}
+#skills {
+  background-color: white;
+}
+.container {
+  text-align: center;
+  height: 100vh;
+}
+.container > h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1rem 0 3rem 0;
+  font-size: 3rem;
+  color: #66bfbf;
+}
+.container-skills {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+.skill {
+  text-align: center;
+}
+.coding > h3 {
+  font-size: 25px;
+  padding-bottom: 1rem;
+  color: #11999e;
+}
+.coding > p {
+  font-size: 20px;
+}
+.container-contact {
+  text-align: center;
+  height: 50vh;
+}
+.container-contact > h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1rem 0 3rem 0;
+  font-size: 3rem;
+  color: #66bfbf;
+}
+.container-contact > p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #11999e;
+  margin-bottom: 2rem;
+}
+.button {
+  padding: 1rem;
+  font-size: 30px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  background-color: #11999e;
+}
+.button:hover {
+  background-color: #66bfbf;
+}
+.button a {
+  color: white;
+}
+.footers {
+  background-color: #66bfbf;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  margin-right: 0.5rem;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #11999e;
+}
+a:hover {
+  color: white;
+}
+.copy {
+  margin-top: 1rem;
+  color: white;
+  font-size: 20px;
+}
