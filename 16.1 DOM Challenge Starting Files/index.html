@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
     <h1>Hello</h1>
 
-    <input type="checkbox">
+    <input type="checkbox" />
 
     <button style=":active color:red;">Click Me</button>
 
@@ -21,7 +19,14 @@
       <li class="list">Second</li>
       <li class="list">Third</li>
     </ul>
-
   </body>
-
 </html>
+
+<!--
+  document.querySelector("li a").style.color = "green"; //merubah warna tag a dalam console
+  document.firstElementChild.lastElementChild.lastElementChild.lastElementChild.innerHTML = "Hadiyan"; //merubah nama list "third"
+  document.querySelector("button").style.backgroundColor = "yellow"; //merubah warna backgroud untuk button menjadi kuning
+  document.querySelector("h1").classList.add("change"); //merubah h1 sesuai dengan class css yang dibuat
+  document.querySelector("h1").textContent = "Hadiyan"; //merubah nama, sama dengan innerHTML. tetapi innerHTML dapat mempengaruhi tag
+  document.querySelector("a").setAttribute("href", "https://www.duckduckgo.com"); //merubah isi link yang terdapat di dalam tag a
+-->
